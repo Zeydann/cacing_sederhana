@@ -1,5 +1,6 @@
 import random
 import sys
+import time
 
 welcome_message = "WELCOME TO GAME ANAK ANAK!"
 cacing_position = random.randint(1, 4)
@@ -29,6 +30,9 @@ if confirm_user == yes_user:
 else:
     print(f"okeee {nama_user} game akan berhenti")
     sys.exit()
+
+print("\nMenunggu hasil..")
+time.sleep(2)
 
 if pilihan_user == cacing_position:
     print(f"selamat {nama_user} kamu menang! posisi cacing ada di goa {cacing_position} dan plihan goa kamu adalah {pilihan_user}.")
