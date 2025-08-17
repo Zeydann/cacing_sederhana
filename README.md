@@ -1,2 +1,3 @@
-# cacing_sederhana
-game tebak cacing sederhana dengan bahasa permograman python
+# Cacing_Sederhana
+
+`Game tebak cacing sederhana dengan bahasa pemrograman python`
